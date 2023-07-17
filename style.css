@@ -149,6 +149,26 @@ main{
     margin-top:1rem;
     color:#424242;
 }
+/* sponsor section styles  */
+.sponsor-text{
+    text-align:center;
+    margin-top:3rem;
+}
+.sponsor-img{
+    margin-top:3rem;
+}
+.sponsor-img img{
+    width:100px;
+    margin-right:2rem;
+    margin-left:0.2rem;
+}
+/* footer section styles */
+footer {
+    background-color:bisque;
+    text-align:center;
+    margin-top:2rem;
+}
+/* almost done  */
 
 /* responsive design mobile devices  */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -196,6 +216,19 @@ main{
         flex-direction:column;padding:2rem;
         gap:2rem;
     }
+    .sponsor{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .sponsor-img{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:2rem;
+    }
 }
 @media screen and (max-width:576px) {
     nav {
@@ -239,5 +272,19 @@ main{
     }
     .facts > h3,p{
         padding:1rem;
+    }
+    .sponsor{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .sponsor-img{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:2rem;
+        
     }
 }
